@@ -1,0 +1,309 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    font-family: arial;
+}
+div.maincontent {
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+div.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.6);  
+}
+div.joinnavbar {
+    background-color: black;
+}
+div.navbar a {
+    color: white;
+    margin: 20px;
+}
+div.navbar a.join {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px; 
+    border: 2px white solid;
+    color: white;
+    }
+    
+
+div.detaills h5{
+    text-align: center;
+}
+div.detaills {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    
+}
+div.detaills button {
+   
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px white solid;
+    color: darkturquoise; 
+}
+div.upcaming h1 {
+    text-align: center;
+}
+div.games {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.game {
+    text-align: center;
+}
+div.game div.img {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-image: url('pubg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+div.game2 div.img{
+    background-image: url('pes2020.jpg');
+}
+div.game3 div.img{
+    background-image: url('gta.jpg');
+}
+
+div.maingame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+    line-height: 23px;
+}
+div.maingame button {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: aqua;
+   color: white;
+    border: none;
+}
+div.maingame img {
+    margin-right: -100;
+    border-radius: 50px;
+}
+div.postscontent{
+    text-align: center;
+}
+
+div.posts{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+div.post{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 30%;
+}
+div.post p{
+    font-size: 15px;
+    text-align: left;
+}
+div.post p,div.post h5{
+    display: inline-block;
+}
+div.post h1,div.post p,div.post h5{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+div.post1 div.img, div.post2 div.img, div.post3 div.img{
+    width: 100%;
+    background-image: url('post1.jpg');
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8PX;
+}
+div.post2 div.img{
+    background-image: url('post2.jpg');
+}
+
+div.post3 div.img{
+    background-image: url('post3.jpg');
+    
+}
+div.test{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+div.testis{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+div.testis h1{
+    
+}
+div.testi{
+    margin: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    height: 200px;
+    padding: 20px;
+}
+div.testi div.img{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 75%;
+    margin-top: -50px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+}
+div.tasti1 div.img{
+    height: 80px;
+    background-image: url('testimonial-author-2.jpg');
+}
+div.tasti2 div.img{
+    height: 80px;
+    background-image: url('testimonial-author-3.jpg');
+}
+ 
+.pricing h2 {
+   text-align: center; 
+}
+.prices {
+    background: white;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+.price {
+    width: 30%;
+    background-color: darkcyan;
+    color: white;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.price button {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: white;
+    border: 1px solid white;
+    
+}
+.planeprice {
+    background-color: darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.planeprice h3 {
+     margin: 0px;
+    padding: 0px;
+    
+}
+.footer {
+    text-align: center;
+    padding: 8px;
+    margin-top: 40px;
+    background-color: aqua;
+    color: white;
+}
+.joinform {
+    display: flex;
+    justify-content;
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.joinform .image {
+    width: 50%;
+}
+.joinform .form {
+    width: 65%;
+}
+.joinform .image {
+    background-image: url('callofduty%20(1).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+form input, form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+}
+form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    padding-top: 100px;
+}
+form button {
+    background-color: blue;
+    color: white;
+}
+.footer {
+    color: white;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+ul {
+    display: none;
+}
+
+
+
+.left {
+    position: fixed;
+    top: 350px;
+    left: 50px;
+}
+.right {
+    position: fixed;
+    top: 350px;
+    right: 50px;
+}
