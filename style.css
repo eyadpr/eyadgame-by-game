@@ -293,6 +293,10 @@ form button {
 }
 ul {
     display: none;
+    position: fixed;
+    top: 70px;
+    right: 280;
+    background-color: white;
 }
 
 
